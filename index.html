@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class ="up-section">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <div class = "input-section">
+                <input type="number" id="input-el">
+            </div>
+            <div class = "button-container">
+                <div class = "input-section">
+                    <button id ="convert-btn">Convert</button>
+                    <div class ="separator"></div>
+                    <button id="reset-btn">Reset</button>
+                    </div>
+            </div>  
+        </div>
+        <div class ="down-section">
+            <div class = "conversion">
+                <h3>Length (Meter/Feet)</h3>
+                <p id = "convert-text-1"></p>
+            </div>
+            <div class = "conversion">
+                <h3>Volume (Liters/Gallons)</h3>
+                <p id = "convert-text-2"></p>
+            </div>
+            <div class = "conversion">
+                <h3>Mass (Kilograms/Pounds)</h3>
+                <p id = "convert-text-3"></p>
+            </div>
+        </div>    
+    </main>
+    <script src="index.js"></script>
+   
+</body>
+</html>
